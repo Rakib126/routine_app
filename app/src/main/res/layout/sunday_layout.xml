@@ -2,7 +2,6 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -18,7 +17,7 @@
         android:layout_marginHorizontal="16dp"
         android:foreground="?android:attr/selectableItemBackground"
         android:clickable="true"
-        android:focusable="true">
+        >
 
         <RelativeLayout
             android:layout_width="wrap_content"
@@ -30,7 +29,7 @@
                 android:padding="3dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/wireless_programming"
+                android:text="Wireless Programming"
                 android:textColor="@color/black"
                 android:textSize="@dimen/_15sdp"
                 />
@@ -40,8 +39,8 @@
                 android:layout_below="@id/title4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/cse_334"
-                android:textSize="15sp"
+                android:text="CSE 334"
+                android:textSize="15dp"
                 android:padding="3dp"
                 />
 
@@ -84,12 +83,10 @@
                 android:layout_toRightOf="@id/initial4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/o_12"
+                android:text="O-12"
                 android:textSize="@dimen/_12sdp"
                 android:paddingLeft="3dp"
-                android:layout_toEndOf="@id/initial4"
-                android:paddingStart="3dp"
-                tools:ignore="RtlSymmetry" />
+                />
 
             <ImageView
                 android:id="@+id/timeImage4"
